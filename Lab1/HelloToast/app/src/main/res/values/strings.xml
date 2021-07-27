@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Toast</string>
+    <string name="toastButtonContent">TOAST</string>
+    <string name="countInitial">0</string>
+    <string name="countButtonText">INCREMENT</string>
+    <string name="aditya_raghavan">Aditya Raghavan</string>
+    <string name="_2047204">2047204</string>
+    <string name="aditya_raghavan_mca_christuniversity_in">aditya.raghavan@mca.christuniversity.in</string>
+</resources>
