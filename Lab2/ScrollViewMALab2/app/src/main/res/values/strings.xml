@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScrollViewMALab2</string>
+    <string name="aditya_raghavan_2047204">Aditya Raghavan - 2047204</string>
+    <string name="aboutChristText">CHRIST (Deemed to be University) was born out of the educational vision of St Kuriakose Elias Chavara, an educationalist and social reformer of the nineteenth century in South India. He founded the first Catholic indigenous congregation, Carmelites of Mary Immaculate (CMI), in 1831 which administers CHRIST (Deemed to be University).</string>
+    <string name="aboutChristContinued">Established in 1969 as Christ College, it undertook path-breaking initiatives in Indian higher education with the introduction of innovative and modern curricula, insistence on academic discipline, imparting of Holistic Education and adoption of global higher education practices with the support of creative and dedicated staff. The University Grants Commission (UGC) of India conferred Autonomy to Christ College in 2004 and identified it as an Institution with Potential for Excellence in 2006. In 2008 under Section 3 of the UGC Act, 1956, the Ministry of Human Resource Development of the Government of India, declared the institution a Deemed to be University, in the name and style of Christ University. One of the first institutions in India to be accredited in 1998 by the NAAC, and subsequently in 2004 and 2016, CHRIST (Deemed to be University) has the top grade ‘A’ in the 4-point scale.</string>
+    <string name="christ_university_initial_admission_form">Christ University - Initial Admission Form</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="why_do_you_want_to_be_a_christite">Why do you want to be a Christite?</string>
+    <string name="more_about_christ_university">More about Christ University</string>
+    <string name="submit">Submit</string>
+</resources>
