@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Scored"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/scoreProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Score"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate the Quiz"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <Spinner
+        android:id="@+id/regionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center" />
+    <RatingBar
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for Taking the Quiz"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Out Website"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"/>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gfg"
+        android:onClick="gfgClicked"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/restart"
+        android:onClick="restartClicked"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="restart"
+         />
+
+
+</LinearLayout>
